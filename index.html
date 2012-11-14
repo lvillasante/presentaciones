@@ -1,0 +1,156 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=1024" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <title>Responsive Web design by Luis Villasante </title>
+    
+    <meta name="author" content="Luis Villasante" />
+
+    <link href="http://fonts.googleapis.com/css?family=Open+Sans:regular,semibold,italic,italicsemibold|PT+Sans:400,700,400italic,700italic|PT+Serif:400,700,400italic,700italic" rel="stylesheet" />
+
+    <link href="css/impress-demo.css" rel="stylesheet" />
+    
+    <link rel="shortcut icon" href="favicon.png" />
+    <link rel="apple-touch-icon" href="apple-touch-icon.png" />
+</head>
+
+<body class="impress-not-supported">
+
+<div class="fallback-message">
+    <p>Tu navegador<b>no soporta los requerimientos </b> de impress.js, asi que se te presentara una version simple de la presentación.</p>
+    <p>Para una mejor experiencia por favor utilice la ultima version de <b>Chrome</b>, <b>Safari</b> or <b>Firefox</b> como navegador.</p>
+</div>
+
+    
+<div id="impress">
+
+    <div id="Responsive-Web-Design" class="step slide" data-x="-2000" data-y="-1500">
+        <center>RESPONSIVE WEB DESIGN<br><br><br>
+        <img src="images/rwd.jpg"></center>
+    </div>
+
+    <div id="que-es" class="step slide" data-x="-1000" data-y="-1500">
+        <h1>Que es?</h1>
+        <q>Un nuevo modo de  afrontar el diseño <b>web</b> flexivilizando la capa de presentación para que se adapte al tamaño de resolucción del dispositivo en el que se visualiza la pagina</q>
+    </div>
+
+    <div id="en-que-consiste" class="step slide" data-x="0" data-y="-1500">
+        <h1>En que consiste</h1>
+        <q>Diseño Web <strong>adaptable</strong> a diferentes dispositivos, sin crear diferentes versiones de la web para cada uno de estos</q>
+    </div>
+
+    <div id="de-donde-viene" class="step slide" data-x="1000" data-y="-1500">
+        <h1>De donde viene</h1>
+        <q>Ethan Marcote lo acuño en un artículo en <strong>"a list apart"</strong> un famoso site de diseño y desarrollo Web basado en estandares</q>
+    </div>
+
+    <!--
+        This is an example of step element being scaled.
+        Again, we use a `data-` attribute, this time it's `data-scale="4"`, so it means that this
+        element will be 4 times larger than the others.
+        From presentation and transitions point of view it means, that it will have to be scaled
+        down (4 times) to make it back to it's correct size.
+    -->
+    <div id="title" class="step" data-x="0" data-y="0" data-scale="4">
+        <!-- <span class="try">El futuro de la web es</span> -->
+        <h1>Responsive Design</h1>
+        <!--<h1><sup>*</sup>Fuid Grids</h1>
+        <h1><sup>*</sup>Flexible Images</h1>
+        <h1><sup>*</sup>CSS Media Queries</h1>
+        <h1><sup>*</sup>Screen Resolutions</h1> -->
+        <span class="footnote"><sup>*</sup>Es el futuro de la Web</span>
+    </div>
+
+    <!--
+        This element introduces rotation.
+        Notation shouldn't be a surprise. We use `data-rotate="90"` attribute, meaning that this
+        element should be rotated by 90 degrees clockwise.
+    -->
+    <div id="its" class="step" data-x="-1500" data-y="3800" data-rotate="90" data-scale="5">
+        <h1>Terminos</h1>
+        <ol>
+            <li><strong>Fluid Grids:</strong> diseño fuido donde la grilla se redimenciona de acuerdo al tamaño de la pantalla</li>
+            <li><strong>Flexible Images:</strong> donde no se tiene anchos fijos, pero se mueven y escalan el ancho de la cuadrícula flexible</li>
+            <li><strong>CSS Media Queries:</strong> de forma selectiva se muestran estilos CSS basados en orientacion, resolución de pantalla</li>
+            <li><strong>Screen Resolutions:</strong> resoluciones tipicas para Desktops, Laptops, Smartphones</li>
+        </ol>
+    </div>
+
+    <div id="big" class="step" data-x="3500" data-y="2100" data-rotate="180" data-scale="6">
+        <p>Tambien <b>Google</b></p>
+    </div>
+
+    <div id="tiny" class="step" data-x="2200" data-y="1525" data-z="-3000" data-rotate="300" data-scale="1">
+        <p>lo <b>recomienda</b> de sobremanera</p>
+    </div>
+
+    
+    <div id="ventajas" class="step" data-x="3500" data-y="-1600" data-rotate="270" data-scale="6">
+        <h1>Ventajas</h1>
+        <p>
+        * Disminucion de costos de <b class="rotating">desarrollo</b>, <br>
+        * Evita la <b class="rotating">repeticion</b> de contenido <strong>(SEO)</strong><br> 
+        * Mejora la <b class="rotating">experiencia</b> de usuarios, la web que visita es la misma en cualquier dispositivo</p>
+    </div>
+
+    <div id="desventajas" class="step" data-x="7500" data-y="-1200" data-scale="6">
+        <h1>Desventajas</h1>
+        <p>
+        * No adapta los <b class="rotating">contenidos</b><br> 
+        * No adapta la <b class="rotating">funcionalidad</b> JavaScript o Flash, hay que tener <strong>alternativas</strong><br> 
+        * No tiene encuenta el <b class="rotating">dispositivo</b> con el que interactuamos, solo e tamaño de la pantalla</p>
+    </div>
+
+    <div id="source" class="step" data-x="6300" data-y="2000" data-rotate="20" data-scale="4">
+        <p>want to know more?</p>
+        <q><a href="http://github.com/bartaz/impress.js">use the source</a>, Luke!</q>
+    </div>
+
+    <div id="one-more-thing" class="step" data-x="6000" data-y="4000" data-scale="2">
+        <p>one more thing...</p>
+    </div>
+
+    <!--
+        
+        And the last one shows full power and flexibility of impress.js.
+        
+        You can not only position element in 3D, but also rotate it around any axis.
+        So this one here will get rotated by -40 degrees (40 degrees anticlockwise) around X axis and
+        10 degrees (clockwise) around Y axis.
+        
+        You can of course rotate it around Z axis with `data-rotate-z` - it has exactly the same effect
+        as `data-rotate` (these two are basically aliases).
+        
+    -->
+    <div id="its-in-3d" class="step" data-x="6200" data-y="4300" data-z="-100" data-rotate-x="-40" data-rotate-y="10" data-scale="2">
+        <p><span class="have">have</span> <span class="you">you</span> <span class="noticed">noticed</span> <span class="its">it's</span> <span class="in">in</span> <b>3D<sup>*</sup></b>?</p>
+        <span class="footnote">* beat that, prezi ;)</span>
+    </div>
+
+    <!--
+        
+        So to make a summary of all the possible attributes used to position presentation steps, we have:
+        
+        * `data-x`, `data-y`, `data-z` - they define the position of **the center** of step element on
+            the canvas in pixels; their default value is 0;
+        * `data-rotate-x`, `data-rotate-y`, 'data-rotate-z`, `data-rotate` - they define the rotation of
+            the element around given axis in degrees; their default value is 0; `data-rotate` and `data-rotate-z`
+            are exactly the same;
+        * `data-scale` - defines the scale of step element; default value is 1
+        
+        These values are used by impress.js in CSS transformation functions, so for more information consult
+        CSS transfrom docs: https://developer.mozilla.org/en/CSS/transform
+        
+    -->
+    <div id="overview" class="step" data-x="3000" data-y="1500" data-scale="10">
+    </div>
+
+</div>
+
+<script src="js/impress.js"></script>
+<script>impress().init();</script>
+
+</body>
+</html>
