@@ -720,13 +720,19 @@ a:focus {
 #desventajas h1{
     font-size: 2.5em;
 }
+#Adobe-Edge-Tools h1,
+#Frameworks-CSS h1,
+#Media-Queries h1{
+    font-size: 2em;
+}
 
 #ventajas p,
 #desventajas p{
     font-size: .7em;
 }
 
-#ventajas .rotating{
+#ventajas .rotating,
+#Frameworks-CSS .rotating{
     -webkit-transform: rotate(-7deg);
     -moz-transform:    rotate(-7deg);
     -ms-transform:     rotate(-7deg);
@@ -754,4 +760,4 @@ a:focus {
     transition-delay:         0.65s;   
 }
 
-
+#Media-Queries p{ text-align: center;}
